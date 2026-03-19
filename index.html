@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Wall Street AI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dexter AI Agent</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Hides the double scrollbar */
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
-<body style="background-color: #f4f4f9; display: flex; justify-content: center; padding: 20px;">
-
-    <iframe 
-      src="https://dexter-ai-agent-e7kabpkbjgzjb3wsqizjnk.streamlit.app/?embed=true" 
-      width="1000px" 
-      height="850px" 
-      frameborder="0" 
-      style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    </iframe>
-
+<body>
+    <iframe src="https://dexter-ai-agent-e7kabpkbjgzjb3wsqizjnk.streamlit.app/?embed=true"></iframe>
 </body>
 </html>
